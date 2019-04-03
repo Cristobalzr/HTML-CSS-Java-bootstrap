@@ -1,0 +1,66 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.lobster{
+  font-family: 'Lobster';
+  color: #ffffff;
+  font-weight: 400;
+}
+
+
+.card-title {
+  font-size: 1em;
+}
+.card-text{
+  font-size: 0.8em
+}
+
+h4{
+  font-size: 1em;
+}
+.slides{
+  width: 100%;
+}
+
+.carousel-indicators{
+  bottom: -50px;
+}
+
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+header{
+  padding-top: 3rem;
+}
+
+.suscribete{
+  padding-top: 5rem;
+}
+
+h3::after{
+  content: "";
+  border-bottom: 1px solid black;
+  position: absolute;
+  width: 50%;
+  top: 1em;
+  left: 0;
+}
+
+h3 {
+  position: relative;
+}
+
+ul , ol{
+  padding-inline-start: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+}
